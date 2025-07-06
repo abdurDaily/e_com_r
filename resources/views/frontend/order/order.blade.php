@@ -627,14 +627,13 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    প্রশ্ন: আতরগুলোতে কি এলকোহল আছে?
+                                    প্রশ্ন ১. আতর লাগানোর পর কতক্ষণ পর্যন্ত ঘ্রাণ থাকে?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>উত্তর: হ্যাঁ, ১০ টি আতরের সেটে আপনি ১৫ টির মধ্য থেকে নিজের
-                                        পছন্দমতো ১০ টি নির্বাচন করতে পারবেন।</p>
+                                    <p>সাধারণত সুতি কাপড়ে ব্যবহার করলে ঘ্রাণ ৩ থেকে ৮ ঘণ্টা পর্যন্ত স্থায়ী হয় ইনশাআল্লাহ্। তবে প্রতিবার কমপক্ষে ০.২৫–০.৩০ মিলি পরিমাণ আতর ব্যবহার করাই উত্তম ফলাফল দেয়।</p>
                                 </div>
                             </div>
                         </div>
@@ -642,14 +641,13 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    প্রশ্ন: আমি কি আমার পছন্দের আতরগুলো বেছে নিতে পারবো?
+                                    প্রশ্ন: ২. আতরের ঘ্রাণ আশপাশে কতটুকু ছড়ায়?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>উত্তর: হ্যাঁ, ১০ টি আতরের সেটে আপনি ১৫ টির মধ্য থেকে নিজের
-                                        পছন্দমতো ১০ টি নির্বাচন করতে পারবেন।</p>
+                                    <p> যদি সঠিকভাবে ও পরিমিত আতর ব্যবহার করা হয়, তবে সাধারণত ৩ থেকে ৫ ফুট দূর পর্যন্ত এর মনোমুগ্ধকর ঘ্রাণ ছড়িয়ে পড়ে ইনশাআল্লাহ্।</p>
                                 </div>
                             </div>
                         </div>
@@ -657,14 +655,13 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    প্রশ্ন: ডেলিভারি কতদিনে হবে?
+                                    প্রশ্ন: আতর ব্যবহারে কি জামায় দাগ পড়ার ঝুঁকি থাকে?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>উত্তর: হ্যাঁ, ১০ টি আতরের সেটে আপনি ১৫ টির মধ্য থেকে নিজের
-                                        পছন্দমতো ১০ টি নির্বাচন করতে পারবেন।</p>
+                                    <p>না ইনশাআল্লাহ্‌। যদি সরাসরি কাপড়ে না দিয়ে আগে হাতের তালুতে নিয়ে তারপর জামায় লাগানো হয়, তবে দাগ পড়ার আশঙ্কা থাকে না। সঠিকভাবে ব্যবহার করলেই কাপড় থাকে দাগমুক্ত।</p>
                                 </div>
                             </div>
                         </div>
@@ -674,14 +671,13 @@
                             <h2 class="accordion-header">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    প্রশ্ন: ডেলিভারি কতদিনে হবে?
+                                    প্রশ্ন: আতরের বোতল কিভাবে সংরক্ষণ করলে ঘ্রাণ ভালো থাকবে?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>উত্তর: হ্যাঁ, ১০ টি আতরের সেটে আপনি ১৫ টির মধ্য থেকে নিজের
-                                        পছন্দমতো ১০ টি নির্বাচন করতে পারবেন।</p>
+                                    <p>আতরের ঘ্রাণ দীর্ঘদিন ধরে ভালো রাখতে হলে বোতলটি সরাসরি রোদ ও অতিরিক্ত তাপ থেকে দূরে রাখতে হবে। ঠান্ডা ও শুকনো স্থানে সংরক্ষণ করলেই ঘ্রাণ বজায় থাকবে ২–৩ বছর পর্যন্ত ইনশাআল্লাহ্।</p>
                                 </div>
                             </div>
                         </div>
@@ -991,6 +987,33 @@
         }
     });
 });
+
+
+ $(".product-list").each(function () {
+        // Show all items first to reset
+        $(this).children("li").show();
+
+        // Then hide items after the first 2 (i.e., index 2 and beyond)
+        $(this).children("li:gt(1)").hide();
+    });
+
+    $(".toggle-btn").on("click", function (e) {
+        e.preventDefault();
+
+        let targetId = $(this).data("target");
+        let $list = $(targetId);
+        let $hiddenItems = $list.children("li:gt(1)");
+
+        if ($hiddenItems.is(":visible")) {
+            $hiddenItems.slideUp();
+            $(this).text("আরও দেখুন");
+        } else {
+            $hiddenItems.slideDown();
+            $(this).text("কম দেখুন");
+        }
+    });
+
+
     </script>
 
 
