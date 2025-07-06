@@ -33,6 +33,43 @@
     <style>
         /* OMITTED: Your original styles stay here unchanged */
 
+        /* Make selects look like Bootstrap 4 inside SweetAlert2 */
+        .swal2-popup .form-control {
+            display: block;
+            width: 100%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+            margin-bottom: 1rem;
+        }
+
+        /* Error message style inside SweetAlert2 */
+        .swal2-popup .text-danger {
+            font-size: 0.875em;
+            margin-top: -0.75rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* Labels spacing */
+        .swal2-popup label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        /* Button spacing */
+        .swal2-popup .btn {
+            margin-top: 1.5rem;
+            width: 100%;
+        }
+
         #order .btn-decrement,
         #order .btn-increment {
             background: transparent;
@@ -337,19 +374,40 @@
             </div>
             <div class="sliders mt-4">
                 <div class="slider">
-                    <img class="img-fluid" src="./assets/images/review_1.jpg" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/1.jpg') }}" alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="./assets/images/review_1.jpg" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/2.jpg') }}" alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="./assets/images/review_1.jpg" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/3.jpg') }}" alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="./assets/images/review_1.jpg" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/4.jpg') }}" alt="" />
                 </div>
                 <div class="slider">
-                    <img class="img-fluid" src="./assets/images/review_1.jpg" alt="" />
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/5.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/5.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/6.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/7.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/8.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/9.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/10.jpg') }}" alt="" />
+                </div>
+                <div class="slider">
+                    <img class="img-fluid" src="{{ asset('frontend/assets/images/review/11.jpg') }}" alt="" />
                 </div>
             </div>
         </div>
