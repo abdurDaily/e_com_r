@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\backend\order;
+namespace App\Http\Controllers\backend\Order;
 
+use App\Http\Controllers\Controller;
 use App\Models\Order;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Http;
 
 class OrderController extends Controller

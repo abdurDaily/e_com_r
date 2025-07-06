@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\frontend\order;
 
 use App\Http\Controllers\Controller;
+use App\Models\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
-use App\Models\Order;
 
 class OrderController extends Controller
 {
@@ -41,7 +41,7 @@ class OrderController extends Controller
             'client_address' => 'required|string',
             'division_id' => 'required',
             'district_id' => 'required',
-            // 'upazilla_id' => 'required',
+            //'upazilla_id' => 'required',
             'packages' => 'required|array|min:1',
             'packages.*.name' => 'required|string',
             'packages.*.qty' => 'required|integer|min:1',
