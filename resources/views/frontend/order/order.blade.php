@@ -211,7 +211,7 @@
     <!-- HERO -->
     <section id="hero" style="background: url({{ asset('frontend/assets/images/hero.png') }})">
         <div class="container">
-            <img style="width: 180px" src="https://raafidan.com/images/raafidan.png" alt="" />
+            <img style="width: 150px" src="https://raafidan.com/images/raafidan.png" alt="" />
             <h1>
                 প্রিমিয়াম প্রডাক্টের সংকলন <br />
                 আপনার পছন্দে বিশেষ ঘ্রাণ
@@ -221,7 +221,7 @@
                 জন্য উপযুক্ত।
             </p>
             <div>
-                <a href="#product" class="purchase">এই প্যাকেজটি কিনুন</a>
+                <a href="#product" class="purchase">প্যাকেজ পছন্দ করুন</a>
             </div>
         </div>
     </section>
@@ -244,7 +244,7 @@
                 <div class="col-xl-4 col-md-6 mb-4 product_cart h-100 p-0">
                     <div class="product-card h-100">
                         <div class="img">
-                            <img class="img-fluid" src="./assets/images/product_1.png" alt="Product 1" />
+                            <img class="img-fluid" src="" alt="Product 1" />
                         </div>
                         <div class="contains mt-3">
                             <h4>৫ টি আতরের প্যাকেজ</h4>
@@ -478,20 +478,20 @@
 
                     <!-- Package Section -->
                     <div class="col-12 mb-4">
-                        <h5 class="text-center mb-3">আপনার প্যাকেজ নির্বাচন করুন</h5>
+                        <h5 class="text-center mb-3 order_heading">আপনার প্যাকেজ নির্বাচন করুন</h5>
 
                         <div class="row g-3 justify-content-center">
 
                             <!-- Product Card 2 -->
                             <div class="col-md-6 col-lg-5">
-                                <div class="product-card p-3 h-100 border">
+                                <div class="product-card p-3 h-100 border check_pack">
                                     <div class="d-flex justify-content-between align-items-center mb-2">
                                         <div class="form-check d-flex align-items-center">
                                             <input class="form-check-input package-checkbox" type="checkbox"
                                                 id="product_aroma" data-price="390"
                                                 data-name="এ্যারোমা জেনেসিস ৫ টির প্যাকেজ।">
                                             <label class="form-check-label fw-bold ms-3" for="product_aroma">
-                                                এ্যারোমা জেনেসিস ৫ টির প্যাকেজ।
+                                                ৫ টি আতরের প্যাকেজ
                                             </label>
                                         </div>
                                         <span class="badge bg-success fs-6">৳ ৩৯০</span>
@@ -499,13 +499,12 @@
 
                                     <div class="input-group quantity-group ">
                                         <button type="button" class="btn btn-outline-secondary btn-decrement" disabled>
-                                            <iconify-icon icon="zondicons:minus-solid" width="28" height="28">
-                                            </iconify-icon>
+                                            <iconify-icon icon="ic:outline-minus" width="24" height="24"></iconify-icon>
                                         </button>
                                         <input type="number" class="form-control text-center qty-input" id="qty_aroma"
                                             value="1" min="1" disabled>
                                         <button type="button" class="btn btn-outline-secondary btn-increment" disabled>
-                                            <iconify-icon icon="icons8:plus" width="30" height="30"></iconify-icon>
+                                            <iconify-icon icon="ic:baseline-plus" width="24" height="24"></iconify-icon>
                                         </button>
                                     </div>
                                 </div>
@@ -514,28 +513,27 @@
 
                             <!-- Product Card 1 -->
                             <div class="col-md-6 col-lg-5">
-                                <div class="product-card p-3 h-100 border">
-                                    <div class="d-flex justify-content-between align-items-center mb-2">
-                                        <div class="form-check d-flex align-items-center">
+                                <div class="product-card p-3 h-100 border check_pack">
+                                    <div class="d-flex  justify-content-between align-items-center mb-2">
+                                        <div class="form-check d-flex align-items-center ">
                                             <input class="form-check-input package-checkbox" type="checkbox"
-                                                id="product_arabia" data-price="690"
+                                                id="product_arabia" data-price="590"
                                                 data-name="এহেসাস আল আরাবিয়া ১০ টির প্যাকেজ।">
                                             <label class="form-check-label fw-bold ms-3" for="product_arabia">
-                                                এহেসাস আল আরাবিয়া ১০ টির প্যাকেজ।
+                                                ১০ টি আতরের প্যাকেজ
                                             </label>
                                         </div>
-                                        <span class="badge bg-success fs-6">৳ ৬৯০</span>
+                                        <span class="badge bg-success fs-6">৳ ৫৯০</span>
                                     </div>
 
                                     <div class="input-group quantity-group">
                                         <button type="button" class="btn btn-outline-secondary btn-decrement" disabled>
-                                            <iconify-icon icon="zondicons:minus-solid" width="28" height="28">
-                                            </iconify-icon>
+                                            <iconify-icon icon="ic:outline-minus" width="24" height="24"></iconify-icon>
                                         </button>
                                         <input type="number" class="form-control text-center qty-input" id="qty_arabia"
                                             value="1" min="1" disabled>
                                         <button type="button" class="btn btn-outline-secondary btn-increment" disabled>
-                                            <iconify-icon icon="icons8:plus" width="30" height="30"></iconify-icon>
+                                            <iconify-icon icon="ic:baseline-plus" width="24" height="24"></iconify-icon>
                                         </button>
                                     </div>
                                 </div>
@@ -599,7 +597,7 @@
                         </select>
                         <div class="text-danger small mb-2" id="error-upazilla_id"></div>
 
-                        <button type="submit" class="btn btn-primary w-100 mt-3">
+                        <button class="submit_order" type="submit" class="btn btn-primary w-100 mt-3">
                             Submit Order
                         </button>
                     </div>

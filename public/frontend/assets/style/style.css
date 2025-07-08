@@ -40,7 +40,7 @@ body {
 }
 
 #hero .container img {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 #hero .container h1 {
@@ -293,6 +293,24 @@ body {
 }
 /* FAQ END */
 
+#order .submit_order {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    padding: 12px 34px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 20px;
+}
+#order .submit_order:hover {
+    background: transparent;
+    color: #000;
+    outline: 2px solid #000;
+}
 #order .header {
     margin: 80px 0 50px 0;
     text-align: center;
@@ -305,19 +323,35 @@ body {
 #order .header h4 {
     font-family: ador_noirrit_bold;
 }
+/* #order .input-group{
+    border: 1px solid #404040;
+} */
 
-#order button {
-    background-color: #000;
-    color: #fff;
-    padding: 12px 34px;
-    display: inline-block;
-    border-radius: 8px;
-    text-decoration: none;
+#order .input-group {
+    margin-top: 25px;
 }
-#order button:hover {
+#order .input-group input {
+    background-color: transparent;
+    outline: none !important;
+    /* border-bottom: 1px solid #00000092;
+    border-top: 1px solid #00000092; */
+    padding: 1px;
+    border-right: none !important;
+    border-left: none !important;
+}
+#order .input-group button {
     background: transparent;
+    outline: 1px solid #00000092;
     color: #000;
-    outline: 1px solid #000;
+    border-radius: 0;
+    border: none;
+    display: flex;
+    align-items: center;
+    outline: none;
+    background: #00000030;
+}
+#order .check_pack {
+    padding: 35px !important;
 }
 
 #footer {
@@ -331,6 +365,6 @@ body {
     color: #1e1e1e;
     margin-bottom: 0;
 }
-#product_intro h5{
+#product_intro h5 {
     font-size: 18px;
 }

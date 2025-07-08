@@ -1,4 +1,11 @@
 @media (max-width: 991.98px) {
+    #hero {
+        background-image: url("../images/hero/mobile_hero.jpg") !important;
+    }
+    #hero img {
+        margin-bottom: 30px !important;
+        width: 110px !important;
+    }
     #hero .container h1 {
         font-size: 38px;
     }
@@ -8,7 +15,7 @@
     }
 
     #hero .purchase {
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     #characteristics .container {
@@ -27,7 +34,12 @@
         margin-bottom: 0;
         font-size: 14px;
     }
-    
+    #product {
+        padding: 0;
+    }
+    #product .header p {
+        padding: 0 38px;
+    }
     #product .row {
         margin-top: 0 !important;
     }
@@ -40,11 +52,20 @@
     #review .left {
         display: none !important;
     }
-}
-
-
-@media (max-width: 991.98px) {
+    #review .header {
+        padding: 47px 10px;
+    }
+    #review .header p {
+        padding: 0 33px;
+    }
     #hero .container h1 {
         font-size: 30px;
+    }
+    #order {
+        margin: 0 !important;
+    }
+    #order .order_heading {
+        padding: 30px;
+        padding: 0px 0 35px 0;
     }
 }
